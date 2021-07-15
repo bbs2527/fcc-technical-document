@@ -1,0 +1,10 @@
+Technical Document Sections:
+First Section: Soldier Class:
+    ***Use bullet list**
+    The Soldier is a tough warrior, able to deal with a range of combat situations. The Soldier gets improved health, has the widest selection of weapons, and is eventually able to wear heavy armor. Gameplay focus is on getting into the thick of the fight, picking the right weapon for tactical situations, and outlasting opponents. Ashley Williams and Richard L. Jenkins, as well as the default Commander Shepard all have this class.
+
+    Soldiers are the full spectrum warrior of the squad whose talents focus on improving durability and damage. They may specialize in any weapon they choose and are the only class to have access to the assault rifle talent. Soldiers begin with medium armor and are also the only class that may upgrade to heavy armor. Their major weaknesses are their complete lack of biotic and tech abilities, relying on squadmates to pick up the slack in those areas.
+
+    The Soldier class talent increases their health, and grants a small amount of health regeneration. 
+
+    
