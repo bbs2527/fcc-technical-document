@@ -12,7 +12,7 @@ The Document Object Model (DOM) is the data representation of the objects that c
 Here is an example of the DOM hierarchy:
 
 Use image link below: 
-https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1024px-DOM-model.svg.pnghttps://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png
+https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png" 
 -----------------------------------------------------------------
 Second Section: What is the DOM?
 **Use unordered List**
@@ -56,7 +56,7 @@ Fourth Section: Accessing the DOM
     When you create a script–whether it's inline in a <script> element or included in the web page by means of a script loading instruction–you can immediately begin using the API for the document or window elements to manipulate the document itself or to get at the children of that document, which are the various elements in the web page. Your DOM programming may be something as simple as the following, which displays an alert message by using the alert() function from the window object, or it may use more sophisticated DOM methods to actually create new content, as in the longer example below.
 
     This following JavaScript will display an alert when the document is loaded (and when the whole DOM is available for use):
-    
+
         **Code example:
       <body onload="window.alert('Welcome to my home page!');">
 
