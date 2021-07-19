@@ -1,6 +1,38 @@
-/**/
 
+/*Body*/
+
+html{
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;;
+}
+
+/*Navigation Bar*/
+
+#navbar{
+    border: 2px solid red;
+}
+
+#navbar header{
+    font-size: 1.50rem;
+}
+
+/*Main Section*/
+
+main{
+    border: 2px solid red;
+}
+
+.main-section{
+    border: 2px solid red;
+    
+}
+
+.main-section header{
+    font-size: 1.75rem;
+}
 
 figure img{
     width: 50%;
 }
+
+/*Media Querie(s)*/
