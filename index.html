@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +22,7 @@
                 <header>The Document Object Model (DOM)</header>
                 <ul>
                     <li><a class="nav-link" href="#Introduction_to_the_DOM">Introduction to the DOM</a></li>
-                    <li><a class="nav-link" href="#What_is_the_DOM">What is the Dom?</a></li>
+                    <li><a class="nav-link" href="#What_is_the_DOM?">What is the Dom?</a></li>
                     <li><a class="nav-link" href="#DOM_and_Javascript">DOM and Javascript</a></li>
                     <li><a class="nav-link" href="#Accessing_the_DOM">Accessing the DOM</a></li>
                     <li><a class="nav-link" href="#DOM_Interfaces">DOM Interfaces</a></li>
@@ -43,10 +43,9 @@
 
 
          <!--Second Section-->   
-            <section class="main-section" id="What_is_the_DOM">
+            <section class="main-section" id="What_is_the_DOM?">
                <header>What is the DOM?</header>
                <article>
-                   <p>
                        <ul>
                            <li>The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.</li>
                            <li>A Web page is a document. This document can be either displayed in the browser window or as the HTML source. But it is the same document in both cases. The Document Object Model (DOM) represents that same document so it can be manipulated. The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.</li>
@@ -63,8 +62,6 @@
                             <li> All of the properties, methods, and events available for manipulating and creating web pages are organized into objects (for example, the document object that represents the document itself, the table object that implements the special HTMLTableElement DOM interface for accessing HTML tables, and so forth). This documentation provides an object-by-object reference to the DOM.</li>
                             <li>The modern DOM is built using multiple APIs that work together. The core DOM defines the objects that fundamentally describe a document and the objects within it. This is expanded upon as needed by other APIs that add new features and capabilities to the DOM. For example, the HTML DOM API adds support for representing HTML documents to the core DOM.</li>
                        </ul>
-                   </p>
-
                </article>
             </section>
 
@@ -114,7 +111,7 @@
                         <code>
                             const table = document.getElementById("table");
                             const tableAttrs = table.attributes; // Node/Element interface
-                            for (let i = 0; i < tableAttrs.length; i++) {
+                            for (let i = 0; i &lt;tableAttrs.length; i++) {
                             // HTMLTableElement interface: border attribute
                             if(tableAttrs[i].nodeName.toLowerCase() == "border")
                                 table.border = "1";

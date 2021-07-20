@@ -14,7 +14,7 @@ html{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(196, 190, 190);
+    background-color: rgb(212, 212, 212);
     overflow: hidden;
     padding-top: 2%;
     width: 25%;
@@ -97,7 +97,7 @@ p > code{
 }
 
 /*Media Querie(s)*/
-@media screen and (max-width: 750px){
+@media screen and (max-width: 794px){
     #navbar{
         position: absolute;
         top:0;
