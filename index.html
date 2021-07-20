@@ -17,7 +17,7 @@
     </head>
     <body>
         <!--Navigation Section-->
-        <main id="main-doc">
+        
             <nav id="navbar">
                 <header>The Document Object Model (DOM)</header>
                 <ul>
@@ -31,12 +31,12 @@
             </nav>
 
         <!--First Section-->    
-
+        <main id="main-doc">
             <section class="main-section" id="Introduction_to_the_DOM">
                 <header>Introduction to the DOM</header>
                 <article>
                     <p>The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. In this guide, we'll briefly introduce the DOM. We'll look at how the DOM represents an HTML or XML document in memory and how you use APIs to create web content and applications.</p>
-                    <p>Below is an example of a DOM Tree Model</p>
+                    <p>Below is an example of a DOM Tree Model:</p>
                     <figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png" alt="Example of a DOM tree"> <figcaption>DOM Model</figcaption></figure>
                 </article>
             </section>
@@ -90,7 +90,7 @@
                 <header>Accessing the DOM</header>
                 <article>
                     <p>You don't have to do anything special to begin using the DOM. Different browsers have different implementations of the DOM, and these implementations exhibit varying degrees of conformance to the actual DOM standard (a subject we try to avoid in this documentation), but every web browser uses some document object model to make web pages accessible via JavaScript.</p>
-                    <p>When you create a script–whether it's inline in a <code>&lt;script&gt;</code> element or included in the web page by means of a script loading instruction–you can immediately begin using the API for the document or window elements to manipulate the document itself or to get at the children of that document, which are the various elements in the web page. Your DOM programming may be something as simple as the following, which displays an alert message by using the alert() function from the window object, or it may use more sophisticated DOM methods to actually create new content, as in the longer example below.</p>
+                    <p>When you create a script–whether it's inline in a <code id="inline">&lt;script&gt;</code> element or included in the web page by means of a script loading instruction–you can immediately begin using the API for the document or window elements to manipulate the document itself or to get at the children of that document, which are the various elements in the web page. Your DOM programming may be something as simple as the following, which displays an alert message by using the alert() function from the window object, or it may use more sophisticated DOM methods to actually create new content, as in the longer example below.</p>
                     <p>This following JavaScript will display an alert when the document is loaded (and when the whole DOM is available for use):</p>
                     <p>
                         <code>

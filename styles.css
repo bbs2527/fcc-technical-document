@@ -3,38 +3,63 @@
 
 html{
     font-size: 16px;
-    font-family: 'DM Sans', sans-serif;;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5;
 }
 
 /*Navigation Bar*/
 
 #navbar{
-    border: 2px solid red;
-}
-
-#navbar header{
-    font-size: 1.50rem;
-    text-align: center;
-}
-
-/*Main Section*/
-
-main{
-    border: 2px solid red;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(196, 190, 190);
+    overflow: hidden;
+    padding-top: 2%;
+    width: 25%;
+    height: 100%;
+    border-right: 4px solid gray;
 }
 
 .main-section{
-    border: 2px solid red;
-
+    margin: 3%;
 }
 
 .main-section header{
     font-size: 1.75rem;
     text-align: center;
+    font-weight:bolder;
+}
+
+#navbar header{
+    font-size: 1.75rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#navbar ul{
+    height: 65%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li{
+    list-style: none;
+    border-top: 2.5px solid;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+/*Main Section*/
+
+main{
+    margin-left: 25%;
 }
 
 img{
-    width: 50%;
+    max-width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,10 +76,51 @@ figcaption{
 
 .small-header{
     font-size: 1.25rem;
+    font-weight: bold;
 }
 
 #Reference{
     text-align: center;
 }
 
+p > code{
+    display: block;
+    background-color: rgb(230, 221, 221);
+    width: 35rem;
+    white-space: pre-line;
+    word-wrap: normal;
+    margin: 1% auto;
+}
+
+#inline{
+    display: inline;
+}
+
 /*Media Querie(s)*/
+@media screen and (max-width: 750px){
+    #navbar{
+        position: absolute;
+        top:0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 250px;
+        border: none;
+        z-index: 1;
+    }
+    #main-doc{
+        position: relative;
+        margin-top: 250px;
+        margin-left: 0px;
+    }
+    p > code{
+     max-width: 95%;
+    }
+
+    #navbar ul{
+        padding: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
